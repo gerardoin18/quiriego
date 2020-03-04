@@ -279,7 +279,7 @@ nav.mastnav {
 .menu-holder nav ul li a.current {
   color: #777;
 }
-.menu-holder nav ul li a:hover {
+/* .menu-holder nav ul li a:hover {
   background: #000;
   color: #fff;
   transform: rotateX(90deg) translateY(-22px);
@@ -298,7 +298,7 @@ nav.mastnav {
   transition: #6363ce 0.3s ease 0s;
   transform: rotateX(-90deg);
   transform-origin: 50% 0px 0px;
-}
+} */
 
 /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
@@ -1299,7 +1299,7 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 80vh;
 }
 .ba-slider {
   position: relative;
