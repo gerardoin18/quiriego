@@ -1295,7 +1295,7 @@ p {
   height: 500px;
 }
 .bg-image {
-  background-image: url(http://egegorgulu.com/assets/img/beforeafter/after.jpg);
+  background-image: url(../images/bg/TerrazaDesierto.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
