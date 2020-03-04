@@ -405,7 +405,7 @@ section.mastwrap {
   }
 }
 
-/* .promo-section h3:after {
+.promo-section h3:after {
   content: "";
   width: 50%;
   height: 4px;
@@ -413,7 +413,7 @@ section.mastwrap {
   display: inline-block;
   margin-top: 20px;
   opacity: 0.1;
-} */
+}
 
 .action-section .action-block a {
   padding: 200px 0;
