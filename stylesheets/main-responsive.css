@@ -99,7 +99,7 @@ there.
     font-size: 40px;
   }
   .bg-image {
-    height: 85vh;
+    height: 78vh;
   }
 }
 
@@ -111,7 +111,7 @@ there.
     padding-right: 50px;
   }
   .bg-image {
-    height: 120vh;
+    height: 74vh;
   }
 }
 
@@ -131,7 +131,10 @@ there.
     padding: 30px 150px 0 150px;
   }
   .bg-image {
-    height: 120vh;
+    height: 53vh;
+  }
+  .text-danger {
+    margin-top: 10vh !important;
   }
 }
 
@@ -198,7 +201,7 @@ there.
     font-size: 18px;
   }
   .bg-image {
-    height: 50vh;
+    height: 46vh;
   }
   .font-70 {
     font-size: 40px;
@@ -213,7 +216,7 @@ there.
     padding-right: 20px;
   }
   .bg-image {
-    height: 50vh;
+    height: 40vh;
   }
 }
 
@@ -238,7 +241,10 @@ there.
     font-size: 20px;
   }
   .bg-image {
-    height: 48vh;
+    height: 35 vh;
+  }
+  .text-danger {
+    margin-top: 8vh;
   }
 }
 
