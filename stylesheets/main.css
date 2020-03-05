@@ -1560,3 +1560,8 @@ p {
 .font-70 {
     font-size: 70px;
 }
+
+.img-resize {
+    width: 350px;
+    height: 350px;
+}
