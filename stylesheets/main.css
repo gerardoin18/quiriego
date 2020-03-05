@@ -218,21 +218,21 @@ nav.mastnav {
 }
 .menu-toggle
   .spinner-master4
-  input[type="checkbox"]:checked
+  input[type='checkbox']:checked
   ~ .spinner-spin4
   > .diagonal.part-1 {
   margin-top: 10px;
 }
 .menu-toggle
   .spinner-master4
-  input[type="checkbox"]:checked
+  input[type='checkbox']:checked
   ~ .spinner-spin4
   > .diagonal.part-2 {
   margin-top: -13px;
 }
 .menu-toggle
   .spinner-master4
-  input[type="checkbox"]:checked
+  input[type='checkbox']:checked
   ~ .spinner-spin4
   > .horizontal {
   transform: translate(-100px, -7px);
@@ -406,7 +406,7 @@ section.mastwrap {
 }
 
 .promo-section h3:after {
-  content: "";
+  content: '';
   width: 50%;
   height: 4px;
   background-color: #ccc;
@@ -442,7 +442,7 @@ section.mastwrap {
 }
 .carousel-wrapping .featured-carousel-item,
 .content-carousel-item {
-  cursor: url("../images/drag.png") 80 80, crosshair;
+  cursor: url('../images/drag.png') 80 80, crosshair;
 }
 
 .intro-carousel .owl-prev,
@@ -639,7 +639,7 @@ section.mastwrap {
   transition: all 0.4s ease-in-out;
 }
 .info a:hover {
-  cursor: url("../images/plus.png") 40 40, crosshair;
+  cursor: url('../images/plus.png') 40 40, crosshair;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -647,7 +647,7 @@ section.mastwrap {
   transition: all 0.4s ease-in-out;
 }
 .zoom a:hover {
-  cursor: url("../images/zoom.png") 40 40, crosshair;
+  cursor: url('../images/zoom.png') 40 40, crosshair;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -808,7 +808,7 @@ textarea:focus {
 }
 
 textarea {
-  background: url("../images/textarea.png") repeat !important;
+  background: url('../images/textarea.png') repeat !important;
   border: none !important;
   border-bottom: 1px solid !important;
   border-radius: 0px !important;
@@ -1257,49 +1257,50 @@ p {
   background-color: #181818;
 }
 .font1 {
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .font2 {
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
 }
 .font2hairline {
-  font-family: "montserrathairline", sans-serif;
+  font-family: 'montserrathairline', sans-serif;
 }
 .font2ultralight {
-  font-family: "montserratultra_light", sans-serif;
+  font-family: 'montserratultra_light', sans-serif;
 }
 .font2light {
-  font-family: "montserratlight", sans-serif;
+  font-family: 'montserratlight', sans-serif;
 }
 .font2semibold {
-  font-family: "montserratsemi_bold", sans-serif;
+  font-family: 'montserratsemi_bold', sans-serif;
 }
 .font2bold {
-  font-family: "montserratbold", sans-serif;
+  font-family: 'montserratbold', sans-serif;
 }
 .font2extrabold {
-  font-family: "montserratextra_bold", sans-serif;
+  font-family: 'montserratextra_bold', sans-serif;
 }
 .font2black {
-  font-family: "montserratblack", sans-serif;
+  font-family: 'montserratblack', sans-serif;
 }
 .font3 {
-  font-family: "Cabin", sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 body,
 p {
-  font-family: "Cabin", sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 .slider-wrapper {
-  height: 500px;
+  height: auto;
 }
 .bg-image {
   background-image: url(../images/bg/TerrazaDesierto.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 120vh;
+  /* max-height: 120vh; */
 }
 .ba-slider {
   position: relative;
@@ -1336,7 +1337,7 @@ p {
   width: 64px;
   height: 64px;
   margin: -32px 0 0 -32px;
-  content: "\21d4";
+  content: '\21d4';
   color: white;
   font-weight: bold;
   font-size: 36px;
@@ -1385,4 +1386,9 @@ p {
 }
 .Footer {
   display: none !important;
+}
+
+/*CUSTOM*/
+.font-70 {
+  font-size: 70px;
 }
