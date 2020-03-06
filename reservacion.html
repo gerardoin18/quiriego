@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>
+      Desierto Terraza by Quiriego | Experiencia culinaria única en Hermosillo
+    </title>
+    <meta
+      name="description"
+      content="Desierto Terraza by Quiriego | Experiencia culinaria única en Hermosillo"
+    />
+    <meta name="author" content="Shugert" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/bg/favicon.png" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="fonts/webfonts.css" />
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600%7CPrompt:300,400,700,900%7CCabin:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- ICON FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/ionicons.min.css" />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="stylesheets/jquery-ui.css" />
+    <link rel="stylesheet" href="stylesheets/hamburger.css" />
+    <link rel="stylesheet" href="stylesheets/sinister.css" />
+    <link rel="stylesheet" href="stylesheets/venobox.css" />
+    <link rel="stylesheet" href="stylesheets/owl.carousel.css" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/main-bg.css" />
+    <link rel="stylesheet" href="stylesheets/main-responsive.css" />
+
+    <!-- LESS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--     <link rel="stylesheet/less" type="text/css" href="less/color.less">
+    <link rel="stylesheet/less" type="text/css" href="less/fonts.less">
+    <script src="less/less.min.js"></script> -->
+  </head>
+
+  <body>
+    <!-- Preloader
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    <!-- end : preloader -->
+
+    <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header class="masthead" style="position: absolute;">
+      <div class="main-logo" style="position: absolute;">
+        <a href="index.html"
+          ><img
+            height="130px"
+            alt=""
+            title=""
+            src="images/bg/LOGO DESIERTO-02.png"
+        /></a>
+      </div>
+
+      <div class="menu-toggle">
+        <div class="btn-open">
+          <div class="spinner-master4">
+            <input type="checkbox" id="spinner-form4" />
+            <label for="spinner-form4" class="spinner-spin4">
+              <span class="spinner4 diagonal part-1"></span>
+              <span class="spinner4 horizontal"></span>
+              <span class="spinner4 diagonal part-2"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end : masthead -->
+
+    <!-- Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="main-navigation">
+      <div class="menu-holder font1 font-bold">
+        <div class="valign">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://marsella45.mx/home">Inicio</a>
+              </li>
+              <li>
+                <a href="https://marsella45.mx/restaurante-quiriego"
+                  >Quiriego</a
+                >
+              </li>
+              <li>
+                <a href="terraza.html">Desierto</a>
+              </li>
+              <li>
+                <a class="current" href="reservacion.html">Reservación</a>
+              </li>
+              <!-- <li><a href="contact.html" data-hover="Contact">Contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="menu-holder-close-mask"></div>
+    </div>
+
+    <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="mastwrap">
+      <div
+        id="about"
+        style="background-color: #E1D8D1;"
+        class="about-section pad-top pad-bottom white-bg"
+      >
+        <div class="container">
+          <div class="row add-top add-bottom">
+            <div class="col-md-8 col-md-offset-2 text-left">
+              <h3 class="black font1 font-bold">Reserva con nosotros</h3>
+              <br />
+
+              <div class="contact-item">
+                <div class="alert alert-error error color-bg" id="fname">
+                  <p class="white">Nombre requerido</p>
+                </div>
+                <div class="alert alert-error  error color-bg" id="fmail">
+                  <p class="white">Email requerido</p>
+                </div>
+                <div class="alert alert-error  error color-bg" id="fmsg">
+                  <p class="white">Message should not be empty</p>
+                </div>
+                <form
+                  name="myform"
+                  id="contactForm"
+                  action="sendcontact.php"
+                  enctype="multipart/form-data"
+                  method="post"
+                >
+                  <article>
+                    <input
+                      type="text"
+                      placeholder="Nombre para reservación"
+                      id="name"
+                      name="name"
+                      size="100"
+                      class="border-form white font1"
+                    />
+                  </article>
+                  <article>
+                    <input
+                      type="text"
+                      placeholder="Correo electrónico"
+                      name="email"
+                      id="email"
+                      size="30"
+                      class="border-form white font1"
+                    />
+                  </article>
+                  <article>
+                    <input
+                      type="tel"
+                      placeholder="Número de teléfono"
+                      name="phone"
+                      id="phone"
+                      size="30"
+                      class="border-form white font1"
+                    />
+                  </article>
+                  <article>
+                    <input
+                      type="date"
+                      placeholder="Fecha"
+                      name="date"
+                      id="date"
+                      size="30"
+                      class="border-form white font1"
+                    />
+                  </article>
+                  <article>
+                    <input id="time" type="time" name="time" value="17:30" />
+                  </article>
+                  <article>
+                    <textarea
+                      placeholder="¿Cuántas personas?"
+                      name="people"
+                      cols="40"
+                      rows="1"
+                      id="people"
+                      class="border-form white font1"
+                    ></textarea>
+                  </article>
+                  <article>
+                    <textarea
+                      placeholder="Comentario"
+                      name="message"
+                      cols="40"
+                      rows="5"
+                      id="msg"
+                      class="border-form white font1"
+                    ></textarea>
+                    <div class="btn-wrap  text-left">
+                      <button
+                        class="btn btn-victor btn-victor-dark"
+                        id="submit"
+                        name="submit"
+                        type="submit"
+                      >
+                        Reservar
+                      </button>
+                    </div>
+                  </article>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end : mastwrap -->
+
+    <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <footer class="mastfoot white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 style="text-align:center;">
+              <img src="images/bg/LOGO DESIERTO-02.png" height="200px" alt="" />
+            </h3>
+
+            <ul style="text-align:center;" class="foot-social">
+              <li>
+                <a href="#"
+                  ><img
+                    data-no-retina
+                    style="border-radius: 100%;"
+                    alt=""
+                    title=""
+                    src="images/social/facebook.png"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    data-no-retina
+                    style="border-radius: 100%;"
+                    alt=""
+                    title=""
+                    src="images/social/instagram.png"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end : mastfoot -->
+
+    <!-- End Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="javascripts/libs/common.js"></script>
+    <script src="javascripts/custom/main.js"></script>
+    <script src="javascripts/custom/form-validation.js"></script>
+    <script>
+      $(window).load(function() {
+        //BG IMAGES for this page header
+        $.backstretch(["images/bg/05.jpg"], { duration: 3000, fade: 750 });
+      });
+    </script>
+    <script>
+      document.getElementById("date").valueAsDate = new Date();
+    </script>
+  </body>
+</html>
